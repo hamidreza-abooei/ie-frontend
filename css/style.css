@@ -1,0 +1,61 @@
+:root {
+    --margin : 10pt;
+    --padding:20pt;
+    --gap : 10pt;
+    --submargin : calc(var(--margin)/2);
+    --subpadding : calc(var(--padding)/2);
+}
+.padmar {
+    margin: var(--margin);
+    padding: var(--padding);
+    background-color: cyan;
+
+
+
+    /* width:100 vw; */
+    /* float: left; */
+
+}
+.Lectures {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: var(--gap);
+    /* background-color: green; */
+ }
+
+.RBooks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: var(--gap);
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;  */
+    /* background-color: green; */
+ }
+
+.Footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--gap);
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;  */
+    /* background-color: green; */
+} 
+
+ .Obj {
+     margin: var(--submargin);
+    padding: var(--subpadding);
+    background-color: green;
+    /* float: left; */
+
+}
+/*
+.Head {
+    width: calc((100vw-2*var(--margin))) ;
+} */
+
+
